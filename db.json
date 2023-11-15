@@ -1,40 +1,68 @@
 {
-  "posts": [
+  "orders": [
     {
+      "productName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "brand": "Finibus Bonorum et Malorum",
+      "price": 60.67,
+      "hasUpdateQuantity": false,
+      "quantity": 0,
+      "status": "Missing-Urgent",
+      "hasUpdatedPrice": false,
+      "total": 0,
+      "previousTotal": 0,
+      "previousPrice": 15,
       "id": 1,
-      "title": "1st post",
-      "datetime": "July 16, 2021 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "isApproved": false
     },
     {
+      "productName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "brand": "Finibus Bonorum et Malorum",
+      "price": 60.67,
+      "hasUpdateQuantity": false,
+      "quantity": 15,
+      "status": "Approved",
+      "hasUpdatedPrice": false,
+      "total": 9000.88,
+      "previousTotal": 0,
+      "previousPrice": 0,
       "id": 2,
-      "title": "Second post",
-      "datetime": "July 16, 2021 11:47:48 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. two"
+      "isApproved": true
     },
     {
+      "productName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "brand": "Finibus Bonorum et Malorum",
+      "price": 60.67,
+      "hasUpdateQuantity": false,
+      "quantity": 15,
+      "status": "Approved",
+      "hasUpdatedPrice": false,
+      "total": 9000.88,
+      "previousTotal": 0,
+      "previousPrice": 15,
       "id": 3,
-      "title": "Number Three",
-      "datetime": "July 16, 2021 11:48:01 AM",
-      "body": "Third post... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "isApproved": true
     },
     {
-      "id": 6,
-      "title": "How to become rich",
-      "datetime": "April 16, 2022 2:56:06 AM",
-      "body": "Stop dreaming - this is the truth you have to believe"
-    },
-    {
-      "id": 8,
-      "title": "how to get visa to Afghanistan",
-      "datetime": "April 16, 2022 2:58:59 AM",
-      "body": "lorem ipsum dolor sit amet"
-    },
-    {
-      "id": 9,
-      "title": "Hello!",
-      "datetime": "April 16, 2022 3:00:38 AM",
-      "body": "Hello World!"
+      "productName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "brand": "Finibus Bonorum et Malorum",
+      "price": 60.67,
+      "hasUpdateQuantity": false,
+      "quantity": 4,
+      "status": "Approved",
+      "hasUpdatedPrice": true,
+      "total": 12654.32,
+      "previousTotal": 3345.32,
+      "previousPrice": 10.43,
+      "id": 4,
+      "isApproved": true
     }
-  ]
+  ],
+  "summary": {
+    "supplier": "East Coast Fruits and Vegies",
+    "shippingDate": "12/12/2023",
+    "total": 151021,
+    "category": "",
+    "department": "300-1020-1030",
+    "status": "Awaiting Approval"
+  }
 }
